@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&family=Nanum+Gothic:wght@700&family=Nanum+Pen+Script&display=swap');
+
+.hidden{
+    display: none;
+}
+
+.left{
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+}
+
+.right{
+    width: 60%;
+    height: 100px;
+    display: inline-block;
+}
+
+
+
+/*로그인 스타일*/
+#login-form{
+    text-align: center;
+}
+
+#login-form input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(146, 219, 241);
+    transition: all, o.5s;
+    font-family: 'Jua';
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+#login-form input:hover{
+    background-color: rgba(245, 85, 152, 0.347);
+}
+
+
+#login-form button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(13, 189, 243);
+    transition: all, o.5s;
+    font-family: 'Jua';
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+
+
+/*배경 스타일*/
+#bgImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -5;
+    opacity: 70%;
+}
+
+/*시계 스타일*/
+#clock{
+    text-align: center;
+    width:750px;  
+    height: 150px;
+    margin:0 auto;  
+    padding:10px;	
+    font-family: 'Jua';	
+    font-size: 90px;
+    color: rgba(35, 136, 219, 0.89);
+    text-shadow: 5px  5px 3px rgb(246, 243, 243);
+}
+
+/*투두 리스트 스타일*/
+#todo-form{
+    text-align: center;
+}
+
+#todo-form input{
+    width: 260px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    color: rgba(244, 160, 34, 0.778);
+    background-color: rgb(241, 231, 146);
+    transition: all, o.5s;
+    font-family: 'Jua';
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+#todo-form input:hover{
+    background-color: rgba(245, 85, 152, 0.347);
+}
+
+#todo-list{
+    text-align: center;
+}
+
+#todo-list li{
+    text-align: center;
+    font-family: "Gamja Flower";
+    font-size: 20px;
+    list-style-type: none;
+}
+
+
+#todo-list button{
+    border: none;
+}
+
+
+
+/*명언 스타일*/
+#quote {  
+    text-align: center;
+    width:750px;  
+    height: 150px;
+    margin:0 auto;  
+    padding:5px;	
+    font-family: 'Nanum Pen Script';	
+    font-size: 30px;
+    font-weight: 650;
+    color: rgba(253, 250, 248, 0.96);
+    text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -1px -15px 11px #f80;
+}
+
+/*인사 스타일*/
+#greeting {  
+    text-align: center;
+    width:550px;  
+    height: 150px;
+    margin:0 auto;  
+    padding:5px;	
+    font-family: 'Jua';	
+    font-size: 30px;
+    color: rgb(255, 254, 252);
+}
+
+/*날씨 스타일*/
+#weather {
+    text-align: center;
+    font-family: 'Jua';	
+    font-size: 35px;
+    color: blanchedalmond;
+}
